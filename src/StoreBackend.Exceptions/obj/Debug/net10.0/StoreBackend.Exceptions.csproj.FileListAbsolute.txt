@@ -22,3 +22,15 @@ C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Sof
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\refint\StoreBackend.Exceptions.dll
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.pdb
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\ref\StoreBackend.Exceptions.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.deps.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\bin\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.AssemblyInfoInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.AssemblyInfo.cs
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.sourcelink.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\refint\StoreBackend.Exceptions.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Exceptions\obj\Debug\net10.0\ref\StoreBackend.Exceptions.dll

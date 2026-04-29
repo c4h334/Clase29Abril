@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreBackend.Dto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aae2fc8995b85d351284b0e372b70d11a6da685f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e014802fcde9cad8b5536017cf6ac49137bc23")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreBackend.Dto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreBackend.Dto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

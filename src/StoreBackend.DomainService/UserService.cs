@@ -1,5 +1,7 @@
 using StoreBackend.Domain.Entities;
+using StoreBackend.Dto;
 using StoreBackend.Infrastructure;
+using BCrypt.Net;
 
 namespace StoreBackend.DomainService
 {
@@ -20,5 +22,28 @@ namespace StoreBackend.DomainService
 
             return users;
         }
+
+        public async Task<User> CreateAsync(CreateUserDto user)
+        {
+            if (await _userRepository.HasUserByUsernameAsync(user.Username))
+            {
+                throw new Exceptions.BadRequestResponseException("Username is already taken");
+            }
+            if (await _userRepository.HasUserByEmailAsync(user.Email))
+            {
+                throw new Exceptions.BadRequestResponseException("Email is already taken");
+            }
+
+            var entity = new User
+            {
+                UserResourceId = Guid.NewGuid(),
+                Name = user.Name,
+                Username = user.Username,
+                Email = user.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password)
+            };
+            return await _userRepository.CreateAsync(entity);
+        }
+
     }
 }

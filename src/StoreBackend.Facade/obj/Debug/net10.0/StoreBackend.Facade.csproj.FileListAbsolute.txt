@@ -46,3 +46,27 @@ C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Sof
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\refint\StoreBackend.Facade.dll
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.pdb
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\ref\StoreBackend.Facade.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Facade.deps.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Facade.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Facade.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Domain.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.DomainService.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Dto.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Exceptions.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Infraestructure.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.DomainService.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Dto.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Infraestructure.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Domain.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\bin\Debug\net10.0\StoreBackend.Exceptions.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.csproj.AssemblyReference.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.AssemblyInfoInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.AssemblyInfo.cs
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.csproj.CoreCompileInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.sourcelink.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBac.A56EC265.Up2Date
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\refint\StoreBackend.Facade.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\StoreBackend.Facade.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Facade\obj\Debug\net10.0\ref\StoreBackend.Facade.dll

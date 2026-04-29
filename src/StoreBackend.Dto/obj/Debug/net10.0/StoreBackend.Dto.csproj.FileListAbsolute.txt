@@ -22,3 +22,15 @@ C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Sof
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\refint\StoreBackend.Dto.dll
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.pdb
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\ref\StoreBackend.Dto.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\bin\Debug\net10.0\StoreBackend.Dto.deps.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\bin\Debug\net10.0\StoreBackend.Dto.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\bin\Debug\net10.0\StoreBackend.Dto.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.AssemblyInfoInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.AssemblyInfo.cs
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.csproj.CoreCompileInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.sourcelink.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\refint\StoreBackend.Dto.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\StoreBackend.Dto.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Dto\obj\Debug\net10.0\ref\StoreBackend.Dto.dll

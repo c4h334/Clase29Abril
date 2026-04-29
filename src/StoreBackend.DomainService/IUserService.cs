@@ -9,5 +9,6 @@ namespace StoreBackend.DomainService
     public interface IUserService
     {
         Task<IEnumerable<User>> GetAllUsersAsync();
+        Task<User> CreateAsync(CreateUserDto user);
     }
 }

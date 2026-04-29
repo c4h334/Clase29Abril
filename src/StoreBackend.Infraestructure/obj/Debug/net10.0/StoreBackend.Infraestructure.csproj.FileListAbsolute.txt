@@ -34,3 +34,21 @@ C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Sof
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.pdb
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.genruntimeconfig.cache
 C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Tareas\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\ref\StoreBackend.Infraestructure.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\bin\Debug\net10.0\StoreBackend.Infraestructure.deps.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\bin\Debug\net10.0\StoreBackend.Infraestructure.runtimeconfig.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\bin\Debug\net10.0\StoreBackend.Infraestructure.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\bin\Debug\net10.0\StoreBackend.Infraestructure.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\bin\Debug\net10.0\StoreBackend.Domain.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\bin\Debug\net10.0\StoreBackend.Domain.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.AssemblyInfo.cs
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.sourcelink.json
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBac.4ED4B9AD.Up2Date
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\refint\StoreBackend.Infraestructure.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.pdb
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\StoreBackend.Infraestructure.genruntimeconfig.cache
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Infraestructure\obj\Debug\net10.0\ref\StoreBackend.Infraestructure.dll
