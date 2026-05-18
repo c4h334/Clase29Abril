@@ -1,49 +1,65 @@
+using System;
 using StoreBackend.Domain.Entities;
 using StoreBackend.Dto;
-using StoreBackend.Infrastructure;
-using BCrypt.Net;
+using StoreBackend.Exceptions;
+using StoreBackend.Infrastructure.Repositories;
 
-namespace StoreBackend.DomainService
+namespace StoreBackend.DomainService;
+
+public class UserService : IUserService
 {
-    public class UserService : IUserService
+    private readonly IUserRepository _userRepository;
+    public UserService(IUserRepository userRepository)
     {
-        private readonly IUserRepository _userRepository;
+        _userRepository = userRepository;
+    }
 
-        public UserService(IUserRepository userRepository)
+    public Task<List<User>> GetAllAsync()
+    {
+        return _userRepository.GetAllAsync();
+    }
+
+    public Task<User?> GetByResourceIdAsync(Guid id)
+    {
+        return _userRepository.GetByIdAsync(id);
+    }
+
+    public async Task<User> CreateAsync(CreateUserDto user)
+    {
+        if (await _userRepository.HasUserByUsernameAsync(user.Username))
         {
-            _userRepository = userRepository;
+            throw new Exceptions.BadRequestResponseException("Username is already taken");
+        }
+        if (await _userRepository.HasUserByEmailAsync(user.Email))
+        {
+            throw new Exceptions.BadRequestResponseException("Email is already taken");
         }
 
-        public async Task<IEnumerable<User>> GetAllUsersAsync()
+        var entity = new User
         {
-            var users = await _userRepository.GetAllUsersAsync();
+            UserResourceId = Guid.NewGuid(),
+            Name = user.Name,
+            Username = user.Username,
+            Email = user.Email,
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password),
+        };
 
-            // Aquí va la regla de negocio si el profe la pide
+        return await _userRepository.CreateAsync(entity);
+    }
 
-            return users;
+    public async Task<User?> GetByUserAndPassword(AuthorizationRequestDto request)
+    {
+        var user = await _userRepository.GetByUsername(request.Username);
+        if (user == null)
+        {
+            return null;
         }
 
-        public async Task<User> CreateAsync(CreateUserDto user)
+        if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
         {
-            if (await _userRepository.HasUserByUsernameAsync(user.Username))
-            {
-                throw new Exceptions.BadRequestResponseException("Username is already taken");
-            }
-            if (await _userRepository.HasUserByEmailAsync(user.Email))
-            {
-                throw new Exceptions.BadRequestResponseException("Email is already taken");
-            }
-
-            var entity = new User
-            {
-                UserResourceId = Guid.NewGuid(),
-                Name = user.Name,
-                Username = user.Username,
-                Email = user.Email,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.Password)
-            };
-            return await _userRepository.CreateAsync(entity);
+            return null;
         }
 
+        return user;
     }
 }

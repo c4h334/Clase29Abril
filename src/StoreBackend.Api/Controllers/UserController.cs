@@ -1,47 +1,64 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StoreBackend.Api.Mappers;
 using StoreBackend.Api.Models.Requests;
+using StoreBackend.Api.Security;
+using StoreBackend.DomainService;
 using StoreBackend.Facade;
 
-namespace StoreBackend.Api.Controllers;
-
-[ApiController]
-[Route("api/users")]
-public class UserController : ControllerBase
+namespace StoreBackend.Api.Controllers
 {
-    private readonly IUserFacade _userFacade;
-
-    public UserController(IUserFacade userFacade)
+    [Authorize]
+    [Route("api/users")]
+    [ApiController]
+    public class UserController(IUserFacade userFacade) : ControllerBase
     {
-        _userFacade = userFacade;
-    }
+        [Authorize(Policy = AuthorizationPolicies.CanSearchUsers)]
+        [HttpGet]
+        public async Task<ActionResult> GetAllAsync()
+        {
+            var users = await userFacade.GetAllAsync();
+            var models = UserMapper.ToModel(users);
 
-    [HttpGet]
-    public async Task<IActionResult> GetUsers()
-    {
-        var usersDto = await _userFacade.GetAllUsersAsync();
-        var response = UserMapper.ToModel(usersDto.ToList());
-        return Ok(response);
-    }
+            return Ok(models);
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> CreateUserAsync([FromBody] CreateUserRequestModel user)
-    {
-        try
+        [Authorize(Roles = RoleNames.Administrator)]
+        [HttpPost]
+        public async Task<IActionResult> CreateUserAsync([FromBody] CreateUserRequestModel user)
         {
             var requestDto = UserMapper.ToDto(user);
-            var userDto = await _userFacade.CreateAsync(requestDto);
+            var userDto = await userFacade.CreateAsync(requestDto);
             var userModel = UserMapper.ToModel(userDto);
             return Ok(userModel);
         }
-        catch (Exceptions.BadRequestResponseException ex)
-        {
-            return BadRequest(ex.Message);
-        }
-        catch (Exception)
-        {
-            return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing the request.");
-         }
-    }
 
+        [Authorize(Roles = RoleNames.Administrator)]
+        [HttpGet("{userId}/roles")]
+        public async Task<IActionResult> GetUserRolesAsync(Guid userId)
+        {
+            var userRoles = await userFacade.GetUserRolesAsync(userId);
+            var responseModel = UserMapper.ToUserRolesResponseModel(userRoles);
+            return Ok(responseModel);
+        }
+
+        [Authorize(Roles = RoleNames.Administrator)]
+        [HttpPut("{userId}/roles")]
+        public async Task<IActionResult> UpdateUserRolesAsync(Guid userId, [FromBody] UpdateRolesRequestModel model)
+        {
+            var requestDto = UserMapper.ToDto(model);
+            var userRoles = await userFacade.UpdateUserRolesAsync(userId, requestDto);
+            var responseModel = UserMapper.ToUserRolesResponseModel(userRoles);
+            return Ok(responseModel);
+        }
+
+        [Authorize(Roles = RoleNames.Administrator)]
+        [HttpDelete("{userId}/roles")]
+        public async Task<IActionResult> DeleteUserRolesAsync(Guid userId)
+        {
+
+            await userFacade.DeleteUserRolesAsync(userId);
+            return Ok();
+        }
+    }
 }

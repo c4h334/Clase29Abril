@@ -912,6 +912,9 @@
         }
       },
       "StoreBackend.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.2"
+        },
         "runtime": {
           "StoreBackend.Domain.dll": {
             "assemblyVersion": "1.0.0.0",

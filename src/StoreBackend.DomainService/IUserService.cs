@@ -2,13 +2,13 @@ using System;
 using StoreBackend.Domain.Entities;
 using StoreBackend.Dto;
 
-using StoreBackend.Domain.Entities;
+namespace StoreBackend.DomainService;
 
-namespace StoreBackend.DomainService
+public interface IUserService
 {
-    public interface IUserService
-    {
-        Task<IEnumerable<User>> GetAllUsersAsync();
-        Task<User> CreateAsync(CreateUserDto user);
-    }
+    Task<List<User>> GetAllAsync();
+    Task<User?> GetByResourceIdAsync(Guid id);
+    Task<User> CreateAsync(CreateUserDto user);
+    Task<User?> GetByUserAndPassword(AuthorizationRequestDto request);
+
 }

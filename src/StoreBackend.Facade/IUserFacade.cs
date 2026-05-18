@@ -1,11 +1,13 @@
+using System;
 using StoreBackend.Dto;
 
-namespace StoreBackend.Facade
+namespace StoreBackend.Facade;
+
+public interface IUserFacade
 {
-    public interface IUserFacade
-    {
-        Task<IEnumerable<UserDto>> GetAllUsersAsync();
-        Task<UserDto> CreateAsync(CreateUserDto user);
-        
-    }
+    Task<List<UserDto>> GetAllAsync();
+    Task<UserDto> CreateAsync(CreateUserDto user);
+    Task<UserRolesDto> GetUserRolesAsync(Guid userId);
+    Task<UserRolesDto> UpdateUserRolesAsync(Guid userId, UpdateRolesDto dto);
+    Task DeleteUserRolesAsync(Guid userId);
 }

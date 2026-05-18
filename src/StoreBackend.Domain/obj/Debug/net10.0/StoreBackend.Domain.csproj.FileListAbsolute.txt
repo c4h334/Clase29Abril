@@ -34,3 +34,4 @@ C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Deb
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\refint\StoreBackend.Domain.dll
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.pdb
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\ref\StoreBackend.Domain.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.csproj.AssemblyReference.cache

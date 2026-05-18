@@ -18,7 +18,15 @@ public class UserMapper
             UserResourceId = user.UserResourceId,
             Name = user.Name,
             Username = user.Username,
-            Email = user.Email
+            Email = user.Email,
+        };
+    }
+
+    public static UserRolesDto ToUserRolesDto(User user)
+    {
+        return new UserRolesDto
+        {
+            Roles = user.UserRoles?.Select(ur => ur.Role.Name).ToList() ?? [],
         };
     }
 }

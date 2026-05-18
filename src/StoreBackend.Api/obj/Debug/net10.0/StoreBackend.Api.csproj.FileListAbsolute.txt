@@ -511,3 +511,5 @@ C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Api\obj\Debug\
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Api\obj\Debug\net10.0\StoreBackend.Api.pdb
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Api\obj\Debug\net10.0\StoreBackend.Api.genruntimeconfig.cache
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Api\obj\Debug\net10.0\ref\StoreBackend.Api.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
