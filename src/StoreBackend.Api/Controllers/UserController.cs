@@ -8,7 +8,7 @@ using StoreBackend.Facade;
 
 namespace StoreBackend.Api.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/users")]
     [ApiController]
     public class UserController(IUserFacade userFacade) : ControllerBase
@@ -23,7 +23,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(models);
         }
 
-        [Authorize(Roles = RoleNames.Administrator)]
+       // [Authorize(Roles = RoleNames.Administrator)]
         [HttpPost]
         public async Task<IActionResult> CreateUserAsync([FromBody] CreateUserRequestModel user)
         {

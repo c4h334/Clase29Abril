@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StoreBackend.Domain.Entities;
 
-[Table("User")]
+[Table("Users")]
 public class User
 {
 
