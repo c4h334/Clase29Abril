@@ -8,7 +8,7 @@ using StoreBackend.Facade;
 
 namespace StoreBackend.Api.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/users")]
     [ApiController]
     public class UserController(IUserFacade userFacade) : ControllerBase
@@ -23,7 +23,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(models);
         }
 
-       [Authorize(Roles = RoleNames.Administrator)]
+        //[Authorize(Roles = RoleNames.Administrator)]
         [HttpPost]
         public async Task<IActionResult> CreateUserAsync([FromBody] CreateUserRequestModel user)
         {
@@ -33,7 +33,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(userModel);
         }
 
-        [Authorize(Roles = RoleNames.Administrator)]
+        // [Authorize(Roles = RoleNames.Administrator)]
         [HttpGet("{userId}/roles")]
         public async Task<IActionResult> GetUserRolesAsync(Guid userId)
         {
@@ -42,7 +42,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(responseModel);
         }
 
-        [Authorize(Roles = RoleNames.Administrator)]
+        // [Authorize(Roles = RoleNames.Administrator)]
         [HttpPut("{userId}/roles")]
         public async Task<IActionResult> UpdateUserRolesAsync(Guid userId, [FromBody] UpdateRolesRequestModel model)
         {
@@ -52,7 +52,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(responseModel);
         }
 
-        [Authorize(Roles = RoleNames.Administrator)]
+        // [Authorize(Roles = RoleNames.Administrator)]
         [HttpDelete("{userId}/roles")]
         public async Task<IActionResult> DeleteUserRolesAsync(Guid userId)
         {
