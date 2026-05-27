@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {
       "Azure.Core/1.47.1": {
@@ -3775,23 +3775,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Profesores\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
       "projectName": "StoreBackend.DomainService",
-      "projectPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
-      "packagesPath": "C:\\Users\\Profesores\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.DomainService\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.DomainService\\StoreBackend.DomainService.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.DomainService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Profesores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3804,19 +3804,20 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
+            "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj": {
+              "projectPath": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Domain\\StoreBackend.Domain.csproj"
             },
-            "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
+            "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj": {
+              "projectPath": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Dto\\StoreBackend.Dto.csproj"
             },
-            "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj"
+            "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj": {
+              "projectPath": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Exceptions\\StoreBackend.Exceptions.csproj"
             },
-            "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Infraestructure\\StoreBackend.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\Profesores\\Desktop\\SeguridadWeb\\Taller2\\src\\StoreBackend.Infraestructure\\StoreBackend.Infraestructure.csproj"
+            "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Infraestructure\\StoreBackend.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Admin\\OneDrive - Universidad de Costa Rica\\V Semestre\\Desarrollo de Software IV\\Repositorio\\backend-clases\\src\\StoreBackend.Infraestructure\\StoreBackend.Infraestructure.csproj"
             }
           }
         }
@@ -3831,10 +3832,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net10.0": {
+        "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
           "BCrypt.Net-Next": {
@@ -3858,7 +3860,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

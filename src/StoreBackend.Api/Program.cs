@@ -11,6 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using StoreBackend.Api.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.OpenApi;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -52,30 +53,30 @@ var queueLimit = builder.Configuration
 builder.Services.AddRateLimiter(options =>
 {
 
-options.AddFixedWindowLimiter("fixed", limiterOptions =>
-{
-limiterOptions.PermitLimit = permitLimit;
-limiterOptions.Window = TimeSpan. FromSeconds(windowSeconds);
-limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
-limiterOptions.QueueLimit = queueLimit;
-});
-options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+    options.AddFixedWindowLimiter("fixed", limiterOptions =>
+    {
+        limiterOptions.PermitLimit = permitLimit;
+        limiterOptions.Window = TimeSpan.FromSeconds(windowSeconds);
+        limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        limiterOptions.QueueLimit = queueLimit;
+    });
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
 
-options.OnRejected = async (context, token) =>
-{
-context.HttpContext.Response. ContentType =
-"application/json";
+    options.OnRejected = async (context, token) =>
+    {
+        context.HttpContext.Response.ContentType =
+    "application/json";
 
-await context.HttpContext.Response.WriteAsync(
+        await context.HttpContext.Response.WriteAsync(
 
-"""
+    """
 {
 "status": 429,
 "message": "Demasiadas solicitudes. Intente nuevamente más tarde."
 }
 """,
-cancellationToken: token);
-};
+    cancellationToken: token);
+    };
 });
 
 var jwtSettings = builder.Configuration.GetSection("Jwt");
@@ -130,6 +131,10 @@ builder.Services.AddAuthorization(options =>
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+builder.Services.AddEndpointsApiExplorer(); // Required for endpoint discovery
+builder.Services.AddSwaggerGen();
+
+
 
 var app = builder.Build();
 
@@ -137,6 +142,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

@@ -13,7 +13,7 @@ namespace StoreBackend.Api.Controllers
     [ApiController]
     public class UserController(IUserFacade userFacade) : ControllerBase
     {
-        [Authorize(Policy = AuthorizationPolicies.CanSearchUsers)]
+        // [Authorize(Policy = AuthorizationPolicies.CanSearchUsers)]
         [HttpGet]
         public async Task<ActionResult> GetAllAsync()
         {
@@ -52,7 +52,7 @@ namespace StoreBackend.Api.Controllers
             return Ok(responseModel);
         }
 
-        // [Authorize(Roles = RoleNames.Administrator)]
+        [Authorize(Roles = RoleNames.Administrator)]
         [HttpDelete("{userId}/roles")]
         public async Task<IActionResult> DeleteUserRolesAsync(Guid userId)
         {

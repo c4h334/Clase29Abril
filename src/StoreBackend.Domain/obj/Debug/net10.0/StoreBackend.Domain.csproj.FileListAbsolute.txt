@@ -35,3 +35,16 @@ C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Deb
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.pdb
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\ref\StoreBackend.Domain.dll
 C:\Users\Profesores\Desktop\SeguridadWeb\Taller2\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\bin\Debug\net10.0\StoreBackend.Domain.deps.json
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\bin\Debug\net10.0\StoreBackend.Domain.dll
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\bin\Debug\net10.0\StoreBackend.Domain.pdb
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.AssemblyInfo.cs
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.sourcelink.json
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.dll
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\refint\StoreBackend.Domain.dll
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\StoreBackend.Domain.pdb
+C:\Users\Admin\OneDrive - Universidad de Costa Rica\V Semestre\Desarrollo de Software IV\Repositorio\backend-clases\src\StoreBackend.Domain\obj\Debug\net10.0\ref\StoreBackend.Domain.dll
